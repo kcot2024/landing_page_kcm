@@ -1,6 +1,6 @@
 @font-face {
    font-family: Boldonse, "sanz-serif";
-   src: url("../fonts/Boldonse/Boldonse-Regular.ttf");
+   src: url("/assets/fonts/Boldonse/Boldonse-Regular.ttf");
 }
 .glitch-wrapper {
    width: 100%;
@@ -10,7 +10,6 @@
 
 .glitch {
    position: relative;
-
    font-family: Boldonse;
    font-weight: 700;
    line-height: 1.3;
