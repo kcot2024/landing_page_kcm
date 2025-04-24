@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+
+@font-face {
+    font-family: Boldonse;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("../assets/fonts/Boldonse/Boldonse-Regular.ttf") ;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-display: swap;
+    src: url("../assets/fonts/Monserrat/Montserrat-VariableFont_wght.ttf") ;
+  }
+
+  @font-face {
+    font-family: Allan;
+    font-style: italic;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("../assets/fonts/Allan/Allan-Regular.ttf") ;
+  }
+
+ @theme{
+  --font-Boldonse: Boldonse, "san-serif";
+  --font-Monserrat: Montserrat, "san-serif";
+  --font-Allan: Allan, "san-serif";
+  --color-regal-blue-dark: #051937; 
+  --color-regal-green-media: #008793; 
+  --color-regal-green-lemon: #A8EB12;
+  --color-btn-turquesa: #00a1ba;
+}
