@@ -1,35 +1,64 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Boldonse&family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 @font-face {
   font-family: Boldonse;
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("/landing_page_kcm/assets/fonts/Boldonse/Boldonse-Regular.ttf");
+  src: url("./assets/fonts/Boldonse/Boldonse-Regular.ttf");
 }
 
+
 @font-face {
-  font-family: Monserrat;
+  font-family: Cal;
   font-style: normal;
   font-display: swap;
-  src: url("/landing_page_kcm/assets/fonts/Monserrat/Monsserrat-VariableFont_wght.ttf");
+  src: url("/assets/fonts/Cal/CalSans-Regular.ttf");
 }
 
-@font-face {
-  font-family: Allan;
-  font-style: italic;
-  font-weight: 200 700;
-  font-display: swap;
-  src: url("/landing_page_kcm/assets/fonts/Allan/Allan-Regular.ttf");
-}
+
 
  @theme{
   --font-Boldonse: Boldonse, "san-serif";
-  --font-Monserrat: Montserrat, "san-serif";
-  --font-Allan: Allan, "san-serif";
+  --font-Cal: Cal, "san-serif";
   --color-regal-blue-dark: #051937; 
   --color-regal-green-media: #008793; 
   --color-regal-green-lemon: #A8EB12;
   --color-btn-turquesa: #00a1ba;
+  --animate-wiggle: wiggle 1s ease-out;
+  --animate-wiggle2: wiggle2 1s ease-out;
+  --animate-zoomIn: zoomIn 0.5s ease-out;
+}
+@keyframes wiggle {
+  0% {
+    transform: translateX(-100%)
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
+@keyframes wiggle2 {
+  0% {
+    transform: translateX(100%)
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: Scale(0.5)
+  }
+  50% {
+    transform: Scale(1.2)
+  }
+  100% {
+    transform: Scale(1)
+  }
 }
