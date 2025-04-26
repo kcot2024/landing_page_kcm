@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KCM SMART | Desarrollamos paginas webs</title>
     <link rel="stylesheet" href="./style.css">
-    <!-- Android (Chrome) -->
-    <meta name="theme-color" content="#00a676" />
+    <script src="https://kit.fontawesome.com/8c2f1b82d6.js" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#14213d" />
 
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,36 +20,174 @@
             Tu navegador no soporta este formato de video.
         </video>
         <div class="relative z-10  text-white">
-           <header class="bg-amber-100/15">
-                <nav class="flex justify-between items-center p-3 lg:px-30">
-                    <a href="./index.html"><img src="./assets/images/logo_blanco.png" width="50px" alt=""></a>
-                    <ul class="flex justify-between items-center gap-5 font-Boldonse text-sm">
-                        <a href="./index.html"><li>Sobre mi</li></a>
+           <header class="bg-blue-800 shadow-xl">
+                <nav class="flex justify-between items-center p-1 lg:px-30">
+                    <a href="./index.html"><img src="./assets/images/logo_blanco.png" width="40px" alt=""></a>
+                    <ul class="flex justify-between items-center gap-5 font-Boldonse text-xs">
+                        <a href="./pages/sobremi.html"><li>Sobre mi</li></a>
                         <a href="./index.html"><li>Blog</li></a>
                         <a href="./index.html"><li>Contacto</li></a>
                     </ul>
                 </nav>
            </header>
 
-           <main class="flex flex-col justify-center items-center text-center p-5">
-            <section class="w-full h-full flex flex-col justify-center items-center mt-10">
-                <div class="flex flex-col gap-5 lg:hidden">
-                    <span class="font-Boldonse text-7xl animate-wiggle ">KCM</span>
-                    <span class="font-Boldonse text-7xl animate-wiggle2 ">SMART</span>
+           <div class="w-full h-screen flex flex-col justify-center items-center text-center p-5">
+            <section class="w-full h-full flex flex-col justify-center items-center">
+                <div class="flex flex-col justify-center items-center gap-5 text-center lg:hidden">
+                    <span class="font-Boldonse text-7xl animate-wiggle tracking-[0.2em] ">KENER</span>
+                    <span class="font-Boldonse text-7xl  animate-wiggle2 stroke-3 stroke-cyan-500">COTRINA</span>
                 </div>
 
-                <div class="hidden lg:flex flex-row gap-5  ">
-                    <span class="font-Boldonse text-8xl animate-wiggle ">KCM</span>
-                    <span class="font-Boldonse text-8xl animate-wiggle2 ">SMART</span>
+                <div class="hidden lg:flex flex-row gap-5 text-center">
+                    <span class="font-Boldonse font-bold text-8xl animate-wiggle ">KENER</span>
+                    <span class="font-Boldonse font-bold text-8xl animate-wiggle2 ">COTRINA</span>
                 </div>
                 
-                <span class="font-Cal mt-10 bg-sky-700 p-5 animate-zoomIn">Hacemos paginas web funcionales</span>
-            </section>
-            
+                <div class="relative inline-block mt-10 animate-zoomIn">
+                    <!-- Fondo negro -->
+                    <div class="absolute inset-0 translate-x-2 translate-y-2 bg-black rounded-md -z-10"></div>
+                    <!-- Fondo amarillo -->
+                    <div class="absolute inset-0 translate-x-1 translate-y-1  bg-blue-500 rounded-md -z-10"></div>
+                    <!-- Fondo azul -->
+                    <div class="absolute inset-0 bg-yellow-400 rounded-md -z-10"></div>
+                  
+                    <!-- Texto -->
+                    <span class="font-Cal p-4 text-xl tracking-widest relative text-white">
+                      Creamos tu página web, blog o tienda virtual
+                    </span>
+                  </div>
+                
+                <section class="flex flex-col lg:flex-row gap-5 mt-20">
+                    <a class="bg-blue-700  px-30 py-5   inline-block hover:-translate-y-1 hover:bg-white hover:text-blue-700 hover:font-semibold  transition-transform duration-300" href="./index.html">Portafolio</a>
+                    <a class="bg-gray-900  px-30 py-5   inline-block hover:-translate-y-1 hover:bg-white hover:text-gray-950 hover:font-semibold  transition-transform duration-300" href="./index.html">Github</a>
 
-           </main>
+                </section>
+                <div class="hidden lg:flex flex-row gap-5 text-center">
+                
+            </section>
+
+            
+            
         </div>
+        </div>
+
+        
+        
     </div>
+
+    <main class="w-full h-full flex flex-col justify-between lg:flex-row">
+
+
+        <div class="w-full max-h-screen bg-gray-900 flex flex-col font-Cal justify-between gap-3 p-5 text-white lg:px-25 ">
+            
+            <span class="font-Cal text-[1.7rem] border-b-4 inline text-blue-700">Sobre mi</span>
+
+            <div class="flex flex-col gap-3 bg-gray-900 p-5 rounded-3xl shadow-2xl shadow-blue-700/50 border-2 border-gray-950 border-b-8 border-b-gray-950  ">
+                <span class="font-Cal text-[1.5rem] text-white">¡Hola, soy kener Cotrina! </span>
+                <p class="text-[1rem] text-white/70 text-justify "> 
+                Desarrollador web con un año de experiencia y 
+                actualmente en proceso de aprender desarrollo de 
+                aplicaciones móviles. Soy originario de Lima, Perú y
+                me especializo en la creación de landing pages únicas y 
+                personalizadas para ofrecer una experiencia web excepcional.
+            </p>
+            <div class="flex justify-center items-center bg-amber-300 rounded-3xl">
+                <img  class="w-50 h-50 object-contain rounded-full bg-amber-50/20" src="/assets/images/img_perssonaje.png" height="200px" width="200px" alt="">
+            </div>
+            </div>
+            
+            
+            <div class="flex flex-row gap-2 justify-between items-center">
+                <a class="bg-gray-900 border-2 border-white/20 text-white p-2 rounded-2xl shadow-2xl shadow-black" href="#"><i class="fa-brands fa-linkedin"> </i>  Linkedin</a> 
+                <a class="bg-gray-900 border-2 border-white/20 text-white p-2 rounded-2xl shadow-2xl shadow-black" href="#"><i class="fa-brands fa-github"> </i>  Github</a> 
+                <a class="bg-gray-900 border-2 border-white/20 text-white p-2 rounded-2xl shadow-2xl shadow-black" href="#"><i class="fa-solid fa-envelope"> </i>  kcm.smart@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="w-full bg-blue-700 flex flex-col justify-between gap-3 p-5 text-white lg:px-25">
+            <span class="font-Cal text-[1.7rem] border-b-4 inline">Educación</span>
+            <div class="flex flex-col font-Cal gap-5">
+                <p class="text-[1.5rem] text-indigo-950 font-bold p-1 bg-amber-400 ">Técnico</p>
+            <span>
+                    <p class="text-[1.2rem]">ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES</p>
+                    <h4 class="text-white/60">ZEGEL IPAE | 2019-2023</h4>
+                </span>
+            </div>
+
+            <div class="flex flex-col gap-5 font-Cal">
+                <p class="text-[1.5rem] text-indigo-950 font-bold p-1 bg-amber-400 inline">Curso</p>
+                <span>
+                    <p class="text-[1.2rem]">FULL STACK DEVELOPERS JR</p>
+                    <h4 class="text-white/60">ENTER TECH SCHOOL | 2024-2025</h4>
+                </span>
+                <span>
+                    <p class="text-[1.2rem]" >JAVASCRIPT TOTAL</p>
+                    <h4 class="text-white/60">UDEMY | 2024</h4>
+                </span>
+            </div>
+            
+            <div class="flex flex-row justify-between items-center text-5xl">
+                <i class="fa-brands fa-html5" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-react" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-server" style="color: #ffffff;"></i>
+
+            </div>
+        
+        </div>
+        
+</main>
+
+<main class="w-full h-full lg:h-screen bg-amber-400 text-black p-5  flex flex-col justify-between items-center lg:px-25">
+    <span class="font-Cal text-[1.7rem] border-b-4 text-center inline">Portafolio</span>
+
+    <div class="w-full h-full flex flex-wrap justify-center items-center p-5 gap-5 ">
+        
+        <article class="p-5 bg-neutral-900 flex flex-col gap-2 rounded-4xl shadow-xl/30 border-b-8 ">
+            <img class="bg-amber-50 rounded-2xl h-[150px] w-full shadow-xl shadow-amber-50/10" src="/assets/images/img-proyecto.png" width="240px" height="200px" alt="">
+            <p class=" text-white font-Cal px-3">Mutflix - Catálago de Películas</p>
+            <span class="text-white/70 text-[0.9rem] px-3">HTML | TAILWIND | JS</span>
+
+        </article> 
+
+        <article class="p-5 bg-neutral-900 flex flex-col gap-2 rounded-4xl shadow-xl/30 border-b-8 ">
+            <img class="bg-amber-50 rounded-2xl h-[150px] w-full shadow-xl shadow-amber-50/10" src="/assets/images/img-proyecto.png" width="240px" height="200px" alt="">
+            <p class=" text-white font-Cal px-3">Binax - Control de operaciones de bitcoin</p>
+            <span class="text-white/70 text-[0.9rem] px-3">HTML | TAILWIND | JS</span>
+
+        </article> 
+
+        <article class="p-5 bg-neutral-900 flex flex-col gap-2 rounded-4xl shadow-xl/30 border-b-8 ">
+            <img class="bg-amber-50 rounded-2xl h-[150px] w-full shadow-xl shadow-amber-50/10" src="/assets/images/img-proyecto.png" width="240px" height="200px" alt="">
+            <p class=" text-white font-Cal px-3">VetMedic - Lading page de Veterinaria</p>
+            <span class="text-white/70 text-[0.9rem] px-3">HTML | TAILWIND | JS</span>
+
+        </article> 
+    </div>
+
+    
+    
+</main>
+
+<main class="w-full h-screen bg-gray-900 text-amber-400 p-5  flex flex-col justify-between items-center lg:px-25">
+    <span class="font-Cal text-[1.7rem] border-b-4 ">Contacto</span>
+  
+        <div class="h-full flex flex-col justify-center items-center gap-5">
+    
+            <span class="text-white font-Cal text-center lg:w-[600px]">
+                Si tiene alguna pregunta, sugerencia o petición, no dude en ponerse en contacto con nosotros. Estaremos encantados de atenderle.
+            </span>
+            <a translate="_blank" href="mailto:kcm.smart@gmail.com"><i class="fa-solid fa-envelope mt-10"> </i>  kcm.smart@gmail.com</a>
+
+            <a translate="_blank" href="www.instagram.com"><i class="fa-brands fa-instagram"></i>  www.instagram.com</a>
+        </div>
+   
+    
+    
+</main>
+<footer class="bg-black p-3 text-white text-center font-Boldonse text-[0.58rem]">
+    web diseñado por www.kcmsmart.com
+</footer>
     
 </body>
 </html>

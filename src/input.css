@@ -32,6 +32,7 @@
   --animate-wiggle: wiggle 1s ease-out;
   --animate-wiggle2: wiggle2 1s ease-out;
   --animate-zoomIn: zoomIn 0.5s ease-out;
+  --animate-wave: wave 4s ease-in-out infinite;
 }
 @keyframes wiggle {
   0% {
@@ -62,3 +63,16 @@
     transform: Scale(1)
   }
 }
+
+
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
